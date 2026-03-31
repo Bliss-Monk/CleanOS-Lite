@@ -1,0 +1,8 @@
+{
+  "_comment": "CleanOS Lite version manifest. Bump scriptVersion when pushing a new .ps1 file.",
+  "_comment2": "Bump rulesetVersion when updating ruleset.json. They are independent.",
+  "scriptVersion":  "1.3.0",
+  "rulesetVersion": "2026.03.31",
+  "minScriptVersion": "1.2.0",
+  "releaseNotes": "v1.3.0: Added self-updating script engine and GitHub install support."
+}
