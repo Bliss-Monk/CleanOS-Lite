@@ -95,9 +95,9 @@ $Version = "1.3.0"
 # =============================================================================
 # CONFIGURATION — paste your GitHub raw URLs here after following the setup guide
 # =============================================================================
-$ScriptUrl   = "https://raw.githubusercontent.com/YourName/cleanos-lite-rules/main/CleanOS_Lite.ps1"
-$VersionUrl  = "https://raw.githubusercontent.com/YourName/cleanos-lite-rules/main/version.json"
-$RulesetUrl  = "https://raw.githubusercontent.com/YourName/cleanos-lite-rules/main/ruleset.json"
+$ScriptUrl   = "https://raw.githubusercontent.com/Bliss-Monk/cleanos-lite/refs/heads/main/CleanOS_Lite.ps1"
+$VersionUrl  = "https://raw.githubusercontent.com/Bliss-Monk/cleanos-lite/refs/heads/main/version.json"
+$RulesetUrl  = "https://raw.githubusercontent.com/Bliss-Monk/cleanos-lite/refs/heads/main/ruleset.json"
 # =============================================================================
 
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
