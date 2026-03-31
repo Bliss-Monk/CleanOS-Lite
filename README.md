@@ -6,7 +6,7 @@ detects Windows Updates, heals any drift automatically, and stays current by dow
 an updated ruleset from a hosted JSON file — without ever needing the script to be redeployed.
 
 How the living Sentry works:
-  1. On every login it fetches ruleset.json from your GitHub repository.
+  1. On every login it fetches ruleset.json from this GitHub repository.
   2. If the remote ruleset is newer than the cached copy it saves the update locally.
   3. It checks if a Windows Update ran since the last scan — if so it runs a full
      all-phases cleanup pass to catch re-provisioned apps and restored services.
