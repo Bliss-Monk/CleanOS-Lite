@@ -1,4 +1,4 @@
-CleanOS Lite is a fully local, self-updating privacy hardening tool for Windows 11.
+CleanOS Lite is a fully local, self-updating privacy hardening tool for Windows 11 laptops.
 No external DNS required. Safe for Office and Outlook. The Sentry checks on every login,
 detects Windows Updates, heals any drift automatically, and stays current by downloading
 an updated ruleset from a hosted JSON file — without ever needing the script to be redeployed.
@@ -14,8 +14,6 @@ How the living Sentry works:
   6. It sends you a toast — green if everything is clean, yellow if it fixed something.
   7. If there's no internet it falls back to the locally cached ruleset.
      If there's no cache it falls back to a baked-in baseline inside the script.
-  You never need to touch the script again. To push new telemetry coverage to every
-  installed machine, edit ruleset.json in your GitHub repo and commit. Done.
 
 What it does:
   - Kills all telemetry services and deadlocks them
